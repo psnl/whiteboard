@@ -1,11 +1,11 @@
-# pinball-mask
-Create a mask layer with opencv to be used with an automated pinball machine
+# whiteboard
+Create a whiteboard image
 
 ## get
-git clone https://github.com/psnl/pinball-mask.git
+git clone https://github.com/psnl/whiteboard.git
 
 ## build
-* cd pinball-mask
+* cd whiteboard
 * mkdir build
 * cd build
 * cmake ..
@@ -13,9 +13,9 @@ git clone https://github.com/psnl/pinball-mask.git
 
 ## run
 ###### Default mask
-./pinball-mask
-###### Custom mask
-./pinball-mask -i=<mask.png>
+./whiteboard
+###### Custom input
+./pinball-mask -i=<input.jpg>
 
 ## markers
-Print the pinball-mask.png in the markers directory on a sheet of paper to test the program.
+Print the markers in the markers directory and place them around a whiteboard.
